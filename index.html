@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>SQL Order of Execution</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Drag and drop the items to put them in the correct order</h1>
+    <ul id="sortable-list">
+      <!-- Items will be populated by JavaScript -->
+    </ul>
+    <button onclick="checkOrder()">Check Order</button>
+    <!-- Add this inside the "container" div -->
+    <button onclick="toggleCorrectOrder()">Show Correct Order</button>
+    <ul id="correct-order" class="hidden">
+      <!-- Correct order will be populated by JavaScript -->
+    </ul>
+  </div>
+  <a href="questions.html">Go to Questions</a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

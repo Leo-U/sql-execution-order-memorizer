@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  padding: 15px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  cursor: grab;
+}
+
+li.grabbing {
+  cursor: grabbing;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.hidden {
+  display: none;
+}
+
+#correct-order li {
+  height: fit-content;
+  padding: 0;
+  margin: 0;
+}
+
+/* Add this to your existing CSS */
+.questions {
+  margin: 10px 0;
+}
+
+.question {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+.question {
+  margin: 10px 0;
+  font-size: 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.answer-group {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+input.answer {
+  margin: 0 10px;
+}
