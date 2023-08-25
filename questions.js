@@ -1,5 +1,6 @@
 const sqlOrder = [
-  "FROM and JOINs",
+  "FROM", 
+  "JOIN",
   "WHERE",
   "GROUP BY",
   "HAVING",
